@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+var UsIn = parseInt(prompt("gimme a number up to 5?"));
+var ending = UsIn
+
+function factorial(n){
+  if(n === 0 || n === 1){
+    console.log("1");
+    return;
+
+  }
+  for(var i = UsIn - 1; i >= 1; i--){
+    ending = ending * i;
+    console.log(ending);
+
+  }
+
+
+}
+factorial(UsIn)
+
+    </script>
+  </body>
+</html>
